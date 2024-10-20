@@ -8,7 +8,7 @@ COPY . .
 
 # Install Maven and JDK, then build the project
 RUN apt-get update && \
-    apt-get install -y maven && \
+    apt-get install -y maven=3.6.3-1 && \
     mvn clean package
 
 # Stage 2: Runtime Stage
