@@ -10,26 +10,26 @@ and open the template in the editor.
     <user id="1">        
         <name>NEO</name>
         <username>neo</username>
-        <password>$2y$12$3JJkQ.zbn5u2/rwXG45MFu7Z.vDJx1oDoQJmUkd8y4wwlvTaRvC/q</password>
+        <password>${env.USR_NEO_PASS}</password>
         <email>neo@matrix</email>
          <about> I am the NEO</about>
     </user>
     <user id="2">        
         <name>Trinity</name>
         <username>trinity</username>
-        <password>$2y$12$E1xSdS.uUIi4ZIhPwQ1rZukWI1CWNFCs4GTmwXG7WiQKHQmnYab8y</password>
+        <password>${env.USR_TRINITY_PASS}</password>
         <email>trinity@matrix</email>
         <about>it is Trinity</about>
     </user>
     <user id="3">        
         <name>Oracle</name>
         <username>oracle</username>
-        <password>$2y$12$KNIZMlhr.OE/O5uYBuOFd.dViAeR5ECXoqi/kwt3g1X1yUETfcmfa</password>
+        <password>${env.USR_ORACLE_PASS}</password>
     </user>
     <user id="4">        
         <name>Anderson</name>
         <username>anderson</username>
-        <password>$2y$12$5ryE.PaEBh2XEZwbGVQITOvDttY7KeIsbSsvGkYN7MnXM2j1QqpUe</password>
+        <password>${env.USR_ANDERSON_PASS}</password>
         <email>anderson@1999</email>
         <about>Computer Programmer</about>
     </user>
